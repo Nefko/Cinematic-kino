@@ -42,7 +42,7 @@ body {
 
 header {
   background: rgb(26, 76, 137);
-  background: linear-gradient(180deg, rgba(26, 76, 137, 1) 0%, rgba(58, 110, 165, 1) 78%);
+  background: linear-gradient(180deg, rgba(26, 76, 137, 1) 0%, rgba(35, 97, 152, 1) 78%);
   height: 110px;
 }
 
