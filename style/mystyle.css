@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  display: flex;
+  min-height: 90vh;
+  flex-direction: row;
+  margin: 0;
+  font-family: 'Archivo', sans-serif;
+}
+
+.side {
+  background: #000000;
+  flex: 0 1 50vh;
+
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  min-width: 50vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.content>article {
+  flex: 3;
+  min-height: 90vh;
+}
+
+.content>aside {
+  background: #000000;
+  flex: 1;
+}
+
+header {
+  background: rgb(26, 76, 137);
+  background: linear-gradient(180deg, rgba(26, 76, 137, 1) 0%, rgba(58, 110, 165, 1) 78%);
+  height: 110px;
+}
+
+footer {
+  background: #3a6ea5;
+  height: 6vh;
+}
+
+header, footer, article, nav, aside {
+  padding: 1em;
+}
