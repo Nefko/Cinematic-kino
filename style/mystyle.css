@@ -5,7 +5,7 @@
 body {
 
   display: flex;
-  min-height: 90vh;
+  min-height: 100vh;
   flex-direction: row;
   margin: 0;
   font-family: 'Archivo', sans-serif;
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 5;
-  min-width: 50vh;
+  min-width: 100vh;
 }
 
 .content {
@@ -53,4 +53,9 @@ footer {
 
 header, footer, article, nav, aside {
   padding: 1em;
+}
+
+h2
+{
+  color: rgb(5,68,125);
 }

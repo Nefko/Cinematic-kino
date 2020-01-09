@@ -58,6 +58,36 @@ li a:hover:not(.active) {
 	background-color:#FEC601;
 }
 .ulaznicebutton:active {
-	position:relative;
+
 	top:1px;
+}
+
+.najave_box
+{
+  margin:40px 0 30px 90px;
+position:absolute;
+  padding: 0px;
+
+}
+.najave_naslov
+{
+  padding: 0px;
+  margin: 0px;
+
+}
+.najave_wrapper
+{
+  padding-left: 15px;
+
+}
+.najave_imena
+{
+padding-top: 5px;
+}
+.imefilma
+{
+  margin:auto;
+  text-align: center;
+  width: 160px;
+  float:left;
 }
