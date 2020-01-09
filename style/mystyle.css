@@ -62,11 +62,7 @@ header, footer, article, nav, aside {
   padding: 1em;
 }
 
-h2
-{
-  color: rgb(5,68,125);
-}
-h3
+h1,h2,h3,h4,h5,h6
 {
   color: rgb(5,68,125);
 }
