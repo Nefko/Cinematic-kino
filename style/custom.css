@@ -66,23 +66,27 @@ li a:hover:not(.active) {
 {
   margin:40px 0 30px 90px;
 position:absolute;
-  padding: 0px;
-
+  padding: 10px 15px 5px 15px;
+  background-color: #d3d3d3;
+border-radius: 5px;
 }
 .najave_naslov
 {
   padding: 0px;
   margin: 0px;
 
+
 }
 .najave_wrapper
 {
-  padding-left: 15px;
+  padding-left: 10px;
+  margin-bottom: 5px;
 
 }
 .najave_imena
 {
 padding-top: 5px;
+
 }
 .imefilma
 {
@@ -90,4 +94,5 @@ padding-top: 5px;
   text-align: center;
   width: 160px;
   float:left;
+
 }
