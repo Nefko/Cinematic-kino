@@ -71,9 +71,10 @@ position:absolute;
   padding: 10px 15px 5px 15px;
   background-color: #efefef;
 border-radius: 5px;
+-webkit-box-shadow: box-shadow: 0px 8px 14px -7px #000000;
 -moz-box-shadow: 0px 8px 14px -7px #000000;
 box-shadow: 0px 8px 14px -7px #000000;
--webkit-box-shadow: box-shadow: 0px 8px 14px -7px #000000;
+
 }
 .najave_naslov
 {
@@ -89,9 +90,11 @@ box-shadow: 0px 8px 14px -7px #000000;
 }
 .slikashadow
 {
-  box-shadow: 2px 2px 11px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow:2px 2px 11px -1px rgba(0,0,0,0.75);
+
+
   -webkit-box-shadow:2px 2px 11px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow:2px 2px 11px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 11px -1px rgba(0,0,0,0.75);
 }
 .najave_wrapper
 {
