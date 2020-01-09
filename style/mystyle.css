@@ -13,7 +13,7 @@ body {
 
 .side {
   background: #000000;
-  flex: 0 1 48vh;
+  flex: 0 1 51vh;
 
 }
 
@@ -65,4 +65,15 @@ header, footer, article, nav, aside {
 h1,h2,h3,h4,h5,h6
 {
   color: rgb(5,68,125);
+}
+hr {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 95%;
+  opacity: 0.6;
 }
