@@ -4,10 +4,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #FEC601;
-  -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
-  box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
-
+  -webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.75);
 }
 
 li {
@@ -21,8 +20,8 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-font-size: 19px;
-font-weight: bold;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 li a:hover:not(.active) {
@@ -33,110 +32,99 @@ li a:hover:not(.active) {
   background-color: black;
   color: #FEC601;
 }
-.active:hover{
+
+.active:hover {
   opacity: 0.7;
   color: #ffb70f;
 }
 
 .ulaznicebutton {
-	box-shadow: 0px 8px 14px -7px #000000;
-	background:linear-gradient(to bottom, #FEC601 5%, #ffb70f 100%);
-	background-color:#FEC601;
-	border-radius:11px;~
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-size:18px;
-	font-weight:normal;
-	padding:8px 22px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #000000;
+  box-shadow: 0px 8px 14px -7px #000000;
+  background: linear-gradient(to bottom, #FEC601 5%, #ffb70f 100%);
+  background-color: #FEC601;
+  border-radius: 11px;
+  ~display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 8px 22px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #000000;
   margin-left: 110px;
 }
+
 .ulaznicebutton:hover {
-	background:linear-gradient(to bottom, #FEC601 5%, #ffb710 100%);
-	background-color:#FEC601;
+  background: linear-gradient(to bottom, #FEC601 5%, #ffb710 100%);
+  background-color: #FEC601;
 }
+
 .ulaznicebutton:active {
-
-	top:1px;
+  top: 1px;
 }
 
-
-
-.najave_box
-{
-  margin:40px 0 30px 40px;
-position:absolute;
+.najave_box {
+  margin: 40px 0 30px 40px;
+  position: absolute;
   padding: 10px 15px 5px 15px;
   background-color: #efefef;
-border-radius: 5px;
--webkit-box-shadow: box-shadow: 0px 8px 14px -7px #000000;
--moz-box-shadow: 0px 8px 14px -7px #000000;
-box-shadow: 0px 8px 14px -7px #000000;
-
+  border-radius: 5px;
+  -webkit-box-shadow: box-shadow: 0px 8px 14px -7px #000000;
+  -moz-box-shadow: 0px 8px 14px -7px #000000;
+  box-shadow: 0px 8px 14px -7px #000000;
 }
-.najave_naslov
-{
+
+.najave_naslov {
   padding: 0px;
   margin: 0px;
-
-
 }
 
-.imgpadright
-{
+.imgpadright {
   margin-right: 15px;
 }
-.slikashadow
-{
 
-
-  -webkit-box-shadow:2px 2px 11px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow:2px 2px 11px -1px rgba(0,0,0,0.75);
-    box-shadow: 2px 2px 11px -1px rgba(0,0,0,0.75);
+.slikashadow {
+  -webkit-box-shadow: 2px 2px 11px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 11px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 11px -1px rgba(0, 0, 0, 0.75);
 }
-.najave_wrapper
-{
+
+.najave_wrapper {
   padding-left: 10px;
   margin-bottom: 5px;
-
 }
-.najave_imena
-{
-padding-top: 5px;
 
+.najave_imena {
+  padding-top: 5px;
 }
-.imefilma
-{
-  margin:auto;
+
+.imefilma {
+  margin: auto;
   text-align: center;
   width: 160px;
-  float:left;
-
-}
-
-.top5_box
-{
-  background-color: #efefef;
-border-radius: 5px;
--webkit-box-shadow: box-shadow: 0px 8px 14px -7px #000000;
--moz-box-shadow: 0px 8px 14px -7px #000000;
-box-shadow: 0px 8px 14px -7px #000000;
-float:right;
-font-size: 14px;
-padding-right: 10px;
-padding-left: 10px;
-padding-bottom: 20px;
-margin-top: 90px;
-margin-right: 30px;
-}
-.top5_img
-{
   float: left;
 }
-.top5_list
-{
+
+.top5_box {
+  background-color: #efefef;
+  border-radius: 5px;
+  -webkit-box-shadow: box-shadow: 0px 8px 14px -7px #000000;
+  -moz-box-shadow: 0px 8px 14px -7px #000000;
+  box-shadow: 0px 8px 14px -7px #000000;
+  float: right;
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-top: 90px;
+  margin-right: 30px;
+}
+
+.top5_img {
+  float: left;
+}
+
+.top5_list {
   float: right;
   margin-left: 20px;
 }
