@@ -51,6 +51,11 @@ footer {
   height: 6vh;
   margin-top: 50px;
   text-align: center;
+  color: #FEC601;
+}
+footer a
+{
+  text-decoration: none;
 }
 
 header, footer, article, nav, aside {
@@ -58,6 +63,10 @@ header, footer, article, nav, aside {
 }
 
 h2
+{
+  color: rgb(5,68,125);
+}
+h3
 {
   color: rgb(5,68,125);
 }
