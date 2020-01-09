@@ -13,7 +13,7 @@ body {
 
 .side {
   background: #000000;
-  flex: 0 1 50vh;
+  flex: 0 1 48vh;
 
 }
 
@@ -27,7 +27,7 @@ body {
 .content {
   display: flex;
   flex-direction: row;
-
+min-width: 80vh;
 }
 
 .content>article {
