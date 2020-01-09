@@ -50,6 +50,7 @@ footer {
   background: #3a6ea5;
   height: 6vh;
   margin-top: 50px;
+  text-align: center;
 }
 
 header, footer, article, nav, aside {
