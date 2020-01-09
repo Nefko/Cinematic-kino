@@ -5,7 +5,7 @@
 body {
 
   display: flex;
-  min-height: 71vh;
+  min-height: 72vh;
   flex-direction: row;
   margin: 0;
   font-family: 'Archivo', sans-serif;
@@ -32,7 +32,7 @@ body {
 
 .content>article {
   flex: 3;
-  min-height: 71vh;
+  min-height: 72vh;
 }
 
 .content>aside {
