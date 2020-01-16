@@ -153,3 +153,29 @@ min-width: 70%;
   margin: 15px auto 20px auto;
   padding: 20px;
 }
+
+.table_name
+{
+  color: rgb(5,68,125);
+
+
+}
+
+.rezerv_box
+{
+  margin: 4%;
+  background-color: #FEC601;
+  padding: 5%;
+  width: auto;
+   display:inline-block;
+   border-radius: 3px;
+}
+
+.rezerv_box:hover
+{
+  background-color: #ffb70f;
+}
+.rezerv_box:active {
+	position:relative;
+	top: 1px;
+}
