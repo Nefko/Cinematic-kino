@@ -81,7 +81,7 @@ li a:hover:not(.active) {
   padding: 0px;
   margin: 0px;
   width: 3.5%;
-  
+
 
 }
 
@@ -181,4 +181,66 @@ min-width: 70%;
 .rezerv_box:active {
 	position:relative;
 	top: 1px;
+}
+
+.login_box {
+  background-color: #efefef;
+  border-radius: 5px;
+  -webkit-box-shadow: box-shadow: 0px 8px 14px -7px #000000;
+  -moz-box-shadow: 0px 8px 14px -7px #000000;
+  box-shadow: 0px 8px 14px -7px #000000;
+  font-size: 14px;
+width: 60%;
+  margin: 10% auto 20px auto;
+  padding: 20px;
+}
+
+.login_naslov
+{
+  text-align: center;
+  width: 100%;
+  font-size: 2.5em;
+  color: rgb(5,68,125);
+  margin-bottom: 5%;
+}
+
+.login_wraper
+{
+  text-align: center;
+}
+
+.login_wraper input[type=text], input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-box-shadow: box-shadow: 0px 2px 14px -7px #000000;
+  -moz-box-shadow: 0px 2px 14px -7px #000000;
+  box-shadow: 0px 2px 14px -7px #000000;
+  margin-bottom: 5%;
+
+}
+
+
+.login_wraper button {
+  background-color: #FEC601;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  font-weight: 500;
+  border-radius: 10px;
+  -webkit-box-shadow: box-shadow: 0px 2px 14px -7px #000000;
+  -moz-box-shadow: 0px 2px 14px -7px #000000;
+  box-shadow: 0px 4px 14px -7px #000000;
+  margin-bottom: 2%;
+}
+
+.login_wraper button:hover {
+  opacity: 0.8;
 }
