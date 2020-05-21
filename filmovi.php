@@ -33,8 +33,8 @@
     </header>
 
     <ul>
-      <li><a href="filmovi.html">Filmovi</a></li>
-      <li><a href="rezerviraj.html">Rezerviraj</a></li>
+      <li><a href="filmovi.php">Filmovi</a></li>
+      <li><a href="rezerviraj.php">Rezerviraj</a></li>
       <li style="float:right"><a href="login.html" class="fa active xd fa-user fa-2x"></a></li>
     </ul>
 
