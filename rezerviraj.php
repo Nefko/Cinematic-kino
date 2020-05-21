@@ -38,76 +38,63 @@
     </ul>
 
     <!-- GLAVNI DIO -->
-    <main class="content"><article><table class="w3-table w3-border w3-card w3-margin-top table_name">
-          <tr>
-            <th width="30%">Naziv filma</th>
-            <th class="w3-border"><?php print(date('d.m.Y.'));?></th>
-            <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400))); ?></th>
-            <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*2))); ?></th>
-            <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*3)));?></th>
-            <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*4)));?></th>
-            <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*5)));?></th>
-            <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*6)));?></th>
-          </tr>
+    <main class="content">
+      <article><table class="w3-table w3-border w3-card w3-margin-top table_name">
+            <tr>
+              <th width="30%">Naziv filma</th>
+              <th class="w3-border"><?php print(date('d.m.Y.'));?></th>
+              <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400))); ?></th>
+              <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*2))); ?></th>
+              <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*3)));?></th>
+              <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*4)));?></th>
+              <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*5)));?></th>
+              <th class="w3-border"><?php print(date('d.m.Y.',(time()+86400*6)));?></th>
+            </tr>
+      <!--<div class="w3-card rezerv_box">15:00</div> kartica u zablici -->
+            <?php
 
-<!--<div class="w3-card rezerv_box">15:00</div> kartica u zablici -->
-          <?php
+            $servername = "localhost";
+            $username = "root";
+            $password = "";
+            $dbname = "kino";
 
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            // Check connection
+            if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+            }
 
-          $servername = "localhost";
-          $username = "root";
-          $password = "";
-          $dbname = "kino";
+            $sql = "SELECT * FROM filmovi";
+            $result = $conn->query($sql);
 
-          // Create connection
-          $conn = new mysqli($servername, $username, $password, $dbname);
-          // Check connection
-          if ($conn->connect_error) {
-          die("Connection failed: " . $conn->connect_error);
-          }
+            if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+            //echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
 
-          $sql = "SELECT * FROM filmovi";
-          $result = $conn->query($sql);
+            echo "<tr>";
+            echo "<td class='table_name w3-border'>";
+            echo "<img style='width: 6em;' src='images/posters/{$row['ime']}p.jpg' alt=''>";
+            echo "<span style='font-size:1.4em;'> {$row['ime']} </span>";
+            echo "<br> <span style='color: black; font-size:1em;'> {$row['zanr']} </span>";
+            echo "</td>";
+            echo "<td class='w3-border'></td>";
+            echo "<td class='w3-border'></td>";
+            echo "<td class='w3-border'></td>";
+            echo "<td class='w3-border'></td>";
+            echo "<td class='w3-border'></td>";
+            echo "<td class='w3-border'></td>";
+            echo "<td class='w3-border'></td>";
+            echo "/<tr>";
+            }
+            } else {
 
-          if ($result->num_rows > 0) {
-          // output data of each row
-          while($row = $result->fetch_assoc()) {
-          //echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
-
-          echo "<tr>";
-          echo "<td class='table_name w3-border'>";
-          echo "<img style='width: 6em;' src='images/posters/{$row['ime']}p.jpg' alt=''>";
-          echo "<span style='font-size:1.4em;'> {$row['ime']} </span>";
-          echo "<br> <span style='color: black; font-size:1em;'> {$row['zanr']} </span>";
-          echo "</td>";
-          echo "<td class='w3-border'></td>";
-          echo "<td class='w3-border'></td>";
-          echo "<td class='w3-border'></td>";
-          echo "<td class='w3-border'></td>";
-          echo "<td class='w3-border'></td>";
-          echo "<td class='w3-border'></td>";
-          echo "<td class='w3-border'></td>";
-          echo "/<tr>";
-          }
-          } else {
-          echo "0 results";
-          }
-          $conn->close();
-
-
-               ?>
-
-
-
-
-
-
-
-        </table>
-
-
+            }
+            $conn->close();
+                 ?>
+          </table>
       </article>
-
     </main>
 
     <!-- FOOTER -->
